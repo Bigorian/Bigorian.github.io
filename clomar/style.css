@@ -1,0 +1,417 @@
+
+* {
+    margin: 0px;
+  }
+
+body{
+    max-width: 1280px;
+    margin: left;
+}
+
+.navbar{
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 16px;
+    margin-right: 24px;
+}
+.navbar img {
+    margin-left: 24px;
+}
+.navbar strong{
+    color: black;
+}
+.navbar-content1{
+    color: gray;
+}
+.navbar h1{
+    height: 32px;
+    padding-top: 9px;
+}
+.navbar-content2 table{
+    
+     margin-left: 350px;
+}
+.navbar-content2 th h1{
+    padding-left: 16px;
+    justify-content: space-between;
+    font-size: 1.65em;
+}
+.navbar-content2 tr{
+    margin-top: 16px;}
+
+.banner{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 0px;
+        margin-top: 32px;
+        width: 100%;
+        background-color: gray;
+}
+.banner-box2{
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+  /* BOX2 total */
+  .box2-total{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  /* BOX2-1 */
+ 
+  .banner-text-2-box1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    margin-top: 32px;
+    margin-right: 24px;
+    margin-bottom: 32px;
+    max-width: 60%;
+    background-color: white;
+    
+}
+.banner-text-2-box1-1 h1{
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+.banner-text-2-box1-1 p{
+    margin-bottom:32px ;
+}
+.banner img{
+    max-width: 60%;
+    margin-bottom: 32px;
+    margin-left: 24px;
+    margin-top: 32px;
+ }
+ 
+ .banner-text0{
+     margin-left: 24px;
+     max-width: 300px;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     justify-content: center;
+ }
+ 
+ .banner-text0 h1{
+ font-family: 'Courier New', Courier, monospace;
+ margin-top: 24px;
+ color: black;
+ }
+ 
+ 
+ 
+ .banner-text0 p{
+ font-family: 'Courier New', Courier, monospace;
+ margin-top: 24px;
+ color: black;
+ }
+ 
+ .banner button{
+     font-family: 'Courier New', Courier, monospace;
+     color: white;
+     background-color:black ;
+     margin: 24px;
+     padding:8px 8px;
+ }
+ 
+
+  /* BOX2-2 */
+  .banner-box2-2{
+    max-width: 40%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  /* BOX2-2-1 */
+  .banner-box2-2-1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .banner-box2-2-1 img{
+    margin-left: 16px;
+    margin-bottom: 16px;
+    width: 35%;
+    height: auto;
+  }
+  .banner-box2-2-1-text{
+    width: 65%;
+    padding: 10px 10px;
+  }
+  .banner-box2-2-1-text p{
+    margin-top:8px ;
+}
+  .banner-box2-2-1-text h4{
+    margin-top: 8px;
+    color: blue;
+  }
+ /* BOX2-2-2 */
+ .banner-box2-2-2{
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+ }
+ .banner-box2-2-2 img{
+    margin-left: 16px;
+    margin-bottom: 16px;
+    width: 35%;
+    height: auto;
+ }
+ .banner-box2-2-2-text{
+    width: 65%;
+    padding: 10px 10px;
+}
+.banner-box2-2-2-text p{
+    margin-top:8px ;
+}
+.banner-box2-2-2-text h4{
+    margin-top: 8px;
+    color: blue;  
+}
+/* BOX2-2-3 */
+.banner-box2-2-3{
+    background-color: gray;
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+ }
+ .banner-box2-2-3 img{
+    margin-left: 16px;
+    margin-bottom: 16px;
+    width: 35%;
+    height: auto;
+ }
+ .banner-box2-2-3-text{
+    width: 65%;
+    padding: 10px 10px;
+}
+.banner-box2-2-3-text p{
+    margin-top:8px ;
+}
+.banner-box2-2-3-text h4{
+    margin-top: 8px;
+    color: blue;  
+}
+
+ /* BOX 3 Total */
+ .box3-total{
+    margin-bottom: 32px;
+    background-color: gray;
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+ 
+ }
+ /* Start learning */
+.start-learning{
+    overflow: visible;
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding-top: 16px;
+    justify-content: center;
+    align-items: center;
+}
+    /* Software Engineer */
+.software-engineer{
+    background-color: white;
+    margin-left: 72px;
+    margin-bottom: 32px;
+}
+.software-engineer img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+}
+.software-engineer-text h1{
+    margin-top:16px ;
+    margin-left: 16px;
+    
+}
+.software-engineer-text h5{
+    margin-top:8px ;
+    margin-left: 16px; 
+}
+.software-engineer-text p{
+    margin-top:16px ;
+    margin-left: 16px; 
+}
+
+    /* Computer Art */
+.computer-art{
+    background-color: white;
+    margin-left: 32px;
+    margin-bottom: 32px;
+}
+.computer-art img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px
+}
+.computer-art-text h1{
+    margin-top:16px ;
+    margin-left: 16px;
+}
+.computer-art-text h5{
+    margin-top:8px ;
+    margin-left: 16px;
+}
+.computer-art-text p{
+    margin-left: 16px;
+    margin-top:16px ;
+    padding-bottom: 24px;
+}
+
+    /* Design */
+.design{
+    background-color: white;
+    margin-left: 32px;
+    margin-right: 72px;
+    margin-bottom: 32px;  
+}
+.design img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px
+}
+.design-text h1{
+    margin-top:16px ;
+    margin-left: 16px;
+}
+.design h5{
+    margin-top:8px ;
+    margin-left: 16px;
+}
+.design p{
+    margin-left: 16px;
+    margin-top:16px ;
+}
+    /* Data */
+.data{
+    background-color: white;
+    margin-left: 72px;
+    margin-bottom: 32px;
+}
+.data img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px
+}
+.design-text h1{
+    margin-top:16px ;
+    margin-left: 16px;
+}
+.design h5{
+    margin-top: 8px ;
+    margin-left: 16px;
+}
+.design p{
+    margin-left: 16px;
+    margin-top:16px ;
+}
+    /* Business */
+.business{
+    background-color: white;
+    margin-left: 32px;
+    margin-bottom: 32px; 
+}
+.business img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px 
+}
+.business h1{
+    margin-top:16px ;
+    margin-left: 16px; 
+}
+.business h5{
+    margin-top: 8px ;
+    margin-left: 16px; 
+}
+.business p{ margin-left: 16px;
+    margin-top:16px ;
+    margin-bottom:16px ;
+}
+    /* Marketing */
+.marketing{
+    background-color: white;
+    margin-right: 72px;
+    margin-left: 32px;
+    margin-bottom: 32px; 
+}
+.marketing img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px 
+}
+.marketing-text h1{
+    margin-top:16px ;
+    margin-left: 16px; 
+}
+.marketing-text h5{
+    margin-top: 8px ;
+    margin-left: 16px; 
+}
+.marketing-text p{ margin-left: 16px;
+    margin-top:16px ;
+}
+.cover-3{
+    background-color: gray;
+    margin-top: 0px;
+}
+
+/* Box 4 */
+.box4-content{
+   width: 100%;
+   border:1px solid red;
+}
+
+/* Thesis exhibit */
+.exhibit{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.exhibit h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ /* Box 4 Video and image */
+ .box4-content{
+    display: flex;
+    flex-direction: row;
+ }
+ .box4-content video{
+    width: 60%;
+    margin-left: 24px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+ }
+ .box4-cover{
+    padding-top: 32px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+ }
+
